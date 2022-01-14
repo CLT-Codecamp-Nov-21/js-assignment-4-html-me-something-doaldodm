@@ -1,8 +1,221 @@
 <!DOCTYPE html>
 <html>
-   <head>
-   </head>
-   <body>
-      <!-- Write your HTML in this file! -->
-   </body>
+
+<head>
+   <link rel="stylesheet"  type="text/css" href="styles.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+</head>
+
+<body>
+   <header style="margin: 0px;">
+      <div class="nav-container">
+         <ul>
+            <li><a href="#nc-section">North Carolina</a> </li>
+            <li><a href="#miami-section">Miami</a></li>
+            <li><a href="#mexico-section">Mexico</a></li>
+            <li><a href="#cuba-grid">Cuba</a></li>
+         </ul>
+      </div>
+   </header>
+
+
+   <main>
+
+      <div class="name-container">
+         <img id="name-img" src="./images/fondo-main-text.png" alt="">
+         <div class="centered">
+            <h1  id="mainHeading" class="font-1 ">Hi <br>I'm Doaldo</h1>
+            <h3 class="font-1">and here are the places I've lived</h3>
+         </div>
+      </div>
+
+
+      <article class="article-holder">
+
+         <!-- 2x2 image- Text Grid -->
+
+         <section class="wrapper" id="cuba-grid">
+            <div>
+               <img class="city-title" src="./images/cuba-title.png" alt="">
+            </div>
+
+            <div class="grid-container">
+               <!-- FIRST ROW -->
+               <div class="d-flex-r cuba-grid-row" id="first-row">
+                  <!-- first half (img) -->
+
+                  <div class=" w-50">
+                     <img class="grid-row-img" src="./images/cuba 2.png" alt="">
+                  </div>
+                  <!-- Second half (text) -->
+                  <div class="cuba-grid-row-text w-50">
+                     <div>
+                        <p class="text-justify t-5">
+                           Cuba is my native country, where I grew up and where my closest relatives and friends are, a
+                           country of beaches, rum, tobacco, and beautiful women, a country where you ear since you are
+                           born that education and healthcare are free. Still, Cuba hides many secrets for those who
+                           look
+                           from the outside. Education and health are paid not only with the hopes of each Cuban but
+                           with
+                           more than 95% of their salary;
+                        </p>
+                     </div>
+                  </div>
+               </div>
+
+               <!-- Second row -->
+               <div class="d-flex-r cuba-grid-row" id="second-row">
+
+                  <!-- first half (text) -->
+                  <div class="cuba-grid-row-text w-50">
+                     <div>
+                        <p class="text-justify t-5">
+                           the average salary for a surgeon, to mention an example, is only 35 dollars a month.
+                           Moreover, the Pearl of the Caribbean, as someone baptized it, today is the home of the most
+                           bloodthirsty dictators that this hemisphere has known, who until to this date repress,
+                           imprison,
+                           disappear and exile all those who think differently or speak of freedom or democracy.
+                        </p>
+                     </div>
+                  </div>
+
+                  <!-- second half (img) -->
+                  <div class=" w-50">
+                     <img class="grid-row-img" src="./images/cuba 1.png" alt="">
+                  </div>
+
+               </div>
+            </div>
+         </section>
+
+
+
+
+
+         <section class="wrapper" id="mexico-section">
+            <div class="city-title-holder">
+               <img class="city-title" src="./images/mexico-title.png">
+            </div>
+            <div>
+               <p class="text-justify t-5">Mexico was the first country to which I could escape from the Cuban
+                  dictatorship, the first time I
+                  savored freedom and what it felt like to say and do whatever I wanted without worrying about going
+                  to prison for my ideas, the first time I was carefree. In my mind, there was no stress because I
+                  was going to eat my family the next day. Mexico was my door to freedom and extremely spicy food :)
+               </p>
+
+            </div>
+
+            <div class="grid-container">
+               <!-- first row -->
+               <div class="d-flex-r mexico-grid-row" id="first-row">
+                  <!-- first half -->
+                  <div class="w-50">
+                     <img class="grid-row-img" class="mexico-row-img" src="./images/mexico-1.jpg">
+                     <figcaption>Kukulkan Temple, Chichen Itza</figcaption>
+                  </div>
+                  <!-- second half -->
+                  <div class="w-50">
+                     <img class="grid-row-img" src="./images/mexico 2.jpg" alt="" class="mexico-row-img">
+                     <figcaption>Palacio De Bellas Artes in Mexico City</figcaption>
+                  </div>
+
+               </div>
+            </div>
+
+         </section>
+
+
+         <section class="wrapper" id="miami-section">
+
+            <div>
+               <div class="city-title-holder">
+                  <img class="city-title" src="./images/miami-title.png">
+               </div>
+               <div>
+                  <p id="testP" class="funParagraph text-justify t-5">Miami was the first place I arrived in the United States. If I had to
+                     describe it with a single
+                     word would be "wow", anything a Cuban would need to be happy is there: a lot of Cubans (really, a
+                     lot), Cuban food, Cuban coffee, beach, sun, parties, and domino tournaments. But I wanted to learn
+                     English, and it is easier to find snow in Miami than someone to speak English to. So although I
+                     enjoyed my time there, I left to where I could practice my English but not so far that I would be
+                     freezing all year.</p>
+               </div>
+
+               <div class="grid-container">
+                  <!-- first row -->
+                  <div class="d-flex-r miami-grid-row" id="first-row">
+                     <!-- first half -->
+                     <div class="w-50">
+                        <img class="grid-row-img" class="miami-row-img" src="./images/miami2.jpg">
+                        <figcaption>Art Deco Historic District</figcaption>
+                     </div>
+                     <!-- second half -->
+                     <div class="w-50">
+                        <img class="grid-row-img" src="./images/miami1.png" alt="" class="miami-row-img">
+                        <figcaption>Key Biscayne and Crandon Park</figcaption>
+                     </div>
+
+                  </div>
+               </div>
+
+            </div>
+
+
+         </section>
+
+
+         <section class="wrapper" id="nc-section">
+
+            <div>
+               <div class="city-title-holder">
+                  <img class="nc-title" src="./images/north carolina title2.png" alt="" -title.png">
+               </div>
+               <div>
+                  <p class=" text-justify t-5">North Carolina has been a fantastic place to live, full of opportunities
+                     and an ideal environment to have a family. It has beautiful landscapes and the perfect balance
+                     between modernity and nature. Furthermore, my younger son was born here, and hopefully i&apos;ll be able
+                     to start my career in IT, so North Carolina may be the final place I call home.</p>
+               </div>
+
+               <div class="grid-container">
+                  <!-- first row -->
+                  <div class="d-flex-r north-carolina-grid-row" id="first-row">
+                     <!-- first half -->
+                     <div class="w-50">
+                        <img class="grid-row-img"
+                           src="./images/famous-landmarks-in-north-carolina-blueridge-mountains.jpg" alt=""
+                           class="north-carolina-row-img">
+                        <figcaption>Blueridge Mountains</figcaption>
+                     </div>
+                     <!-- second half -->
+                     <div class="w-50">
+                        <img class="grid-row-img" class="north-carolina-row-img"
+                           src="./images/important-landmarks-north-crolina-metalmorphosis-statue-charlotte.png">
+                        <figcaption>Charlotte’s Metalmorphosis statue </figcaption>
+                     </div>
+
+                  </div>
+               </div>
+
+            </div>
+
+
+         </section>
+      </article>
+   </main>
+
+
+   <footer >
+<div class="centered">
+<p>Doaldo de Moya 2022</p>
+</div>
+
+
+
+   </footer>
+</body>
+
 </html>
